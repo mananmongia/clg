@@ -2,7 +2,7 @@
 import java.applet.*;
 import javax.swing.*;
 import java.awt.event.*;
-public class Myjapplet extends JApplet implements ActionListener{
+public class Myjapplet extends Applet implements ActionListener{
   JButton b;
   JTextField tf;
   public void init(){
